@@ -68,6 +68,7 @@
     - name: add centos user to each node
       user:
         name: centos
+        password: centos
         state: present
 
     - name: start sshd
