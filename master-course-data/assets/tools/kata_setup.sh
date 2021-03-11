@@ -17,4 +17,4 @@ fi
 # cp -a tools/.ansible.cfg ~/
 # cp -a working/ ~/working/
 mkdir /root/myansible
-cd /root/myansible
+cd ~/
