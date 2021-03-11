@@ -16,4 +16,5 @@ cd ~/katacoda-scenarios/master-course-data/assets/
 cp -a tools/kata_prepare.yml ~/
 cp -a tools/.ansible.cfg ~/
 cp -a working/ ~/working/
-cd ~/
+mkdir ~/myansible
+cd ~/myansible
