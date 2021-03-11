@@ -62,13 +62,14 @@
   gather_facts: False
   vars:
     keypair_path: /root/automation-keypair.pem
+    password: $1$u8BgfJgM$PFikzDMBQb0XF1GqRnYQG/
   tasks:
     - ping:
 
-    - name: add centos user to each node
+    - name: add centos user and its password to each node
       user:
         name: centos
-        password: "{{ centos | password_hash('sha512') }}"
+        password: "{{password}}"
         state: present
 
     - name: start sshd
