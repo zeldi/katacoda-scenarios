@@ -16,6 +16,6 @@ fi
 # cp -a tools/kata_prepare.yml ~/
 # cp -a tools/.ansible.cfg ~/
 # cp -a working/ ~/working/
-mkdir myansible
+mkdir ~/myansible
 mv ~/inventory ~/myansible/
 cd ~/myansible
