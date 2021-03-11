@@ -16,4 +16,4 @@ fi
 # cp -a tools/kata_prepare.yml ~/
 # cp -a tools/.ansible.cfg ~/
 # cp -a working/ ~/working/
-# cd ~/
+cd ~/
